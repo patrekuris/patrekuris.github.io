@@ -1,0 +1,22 @@
+body {
+    font-family: 'Trebuchet MS','Lucida Sans', sans-serif;
+    border: 3px solid blue; /* 3 skipanir í einni */ 
+    max-width: 50em;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+h2 {
+    color: brown;
+}
+.Lennon {
+    color: #00ff00;
+    font-style: italic;
+}
+.Lennon strong {
+    color: #ff0000;
+}
