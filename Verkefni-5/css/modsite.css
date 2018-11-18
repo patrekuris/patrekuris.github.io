@@ -1,0 +1,56 @@
+body {
+    color: red;
+    background-color: darkblue;  
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+.svg {
+    padding-top: 1.5em;
+    padding-right: 2em;
+    display: flex;
+    float: right;
+}    
+main {
+    background-image: linear-gradient(to bottom, green, yellow);
+    padding: 1em;
+}
+.links {
+    padding-right: 2em;
+    padding-bottom: 1em;
+    text-align: end;
+    font-size: 17.5px;
+}
+.links a {
+    color: red;
+    text-decoration: none;
+}
+.links a:hover {
+    color: pink;
+}
+.linkss a{
+    color: red;
+}
+.linkss a:hover {
+    color: pink;
+}
+header ul{ 
+    list-style-type: none; 
+}
+.titill {
+    padding-left: 1em;
+    padding-top: 1em;
+    font-size: 50px;
+}
+footer {
+    padding: 3em;
+}
+.map {
+    display: flex;
+    float: right;
+}
+img {
+    padding: 1em;
+    display: flex;
+    float: right;
+}

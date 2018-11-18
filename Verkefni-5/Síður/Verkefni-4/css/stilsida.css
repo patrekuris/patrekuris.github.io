@@ -1,0 +1,102 @@
+* {box-sizing: border-box}
+body {
+    background-color: #0064CE;
+    color: #444;
+    font: 400 1em/1.5 "Open Sans", sans-serif; /* samsett skipun: weight, size, family*/
+}
+.container {
+    max-width: 60em;
+    margin: 0 auto;
+    padding: 0;
+}
+.beige {
+    background-image: linear-gradient(to top, #ff7d6f, #f6f1d3);
+    padding: 1em;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+header h1 {
+    color: white;
+    font-weight: 300;
+    font-size: 3em;
+    text-transform: uppercase;
+    margin: 2.5em 0 1em 0
+}
+.topnav {
+    margin-top: 6.5em;
+}
+.topnav a{
+    color: white;
+    text-decoration: none;
+    padding: 0 1em;
+}
+.verkefni {
+    text-align: right;
+    color: beige;
+}
+blockquote {
+    background-color: rgba(255,255,255,0.5);
+    padding: 1em;
+}
+footer {
+    color: #fff;
+
+}
+.copy {
+    color: #fff;
+    text-align: center;
+}
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:visited {
+    color: antiquewhite;
+}
+footer li {
+    list-style-type: none;   
+}
+.innermenu {
+    background-color: #0064CE;
+    display: flex;
+    justify-content: flex-end;
+}
+.innermenu a {
+    color: white;
+    text-decoration: none;
+    padding: .4em 1em;
+    border-right: 1px solid white;
+}
+.innermenu a:last-child {
+    border: none;
+}
+.innermenu a:hover, .innermenu a:active {
+    color: #444;
+    background-color: #0064CE;
+}
+.beige2 {
+    height: 100vh;
+    background-image: linear-gradient(to top, #ff7d6f, #f6f1d3);
+    padding: 1em;
+    padding-top: 2em;
+}
+.btop {
+    display: block;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #0064CE;
+    font-size: 2em;
+    width: 1.8em;
+    border-radius: 50%;
+    padding-bottom: .2em;
+}
